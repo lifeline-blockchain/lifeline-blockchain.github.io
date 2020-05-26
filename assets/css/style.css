@@ -550,20 +550,20 @@ background: none;
 }
 
 @media only screen and (max-width:480px) {
-.home-parallax {height: 1150px;}
+.home-parallax {height: 600px;}
 }
 @media only screen and (max-width:414px) {
-.home-parallax {height: 1150px;}
+.home-parallax {height: 600px;}
 }
 @media only screen and (max-width:375px) {
-.home-parallax {height: 1150px;}
+.home-parallax {height: 420px;}
 }
 
 @media only screen and (max-width:360px) {
-.home-parallax {height: 1300px;}
+.home-parallax {height: 420px;}
 }
 @media only screen and (max-width:320px) {
-.home-parallax {height: 1300px;}
+.home-parallax {height: 300px;}
 }
 .home-parallax:before {
     background:rgba(0, 0, 0, 0) linear-gradient(rgba(34, 38, 75, 0.1), rgba(34, 38, 75, 0.5)) repeat scroll 0 0;
@@ -607,13 +607,14 @@ text-transform: uppercase;
     .hero-text h2 {
         font-size: 34px;
         line-height: 45px;
+        padding-top: 100px;
     }
 }
 @media only screen and (max-width:360px) {
     .hero-text h2 {
         font-size: 26px;
         line-height: 36px;
-        padding-top: 250px;
+        padding-top: 100px;
     }
 }
 .hero-text p {
